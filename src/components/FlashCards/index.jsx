@@ -1,23 +1,26 @@
-import { useState } from "react";
 import dataForAvengers from "../DataForAvengers";
 import styles from "./index.module.scss";
+import FLipCard from "../FlipCard";
+import { useState } from "react";
 
 const FlashCard = () => {
-	const [selectedId, setSelectedId] = useState("");
+	// console.log(handleCLick());
+	const [flip, setFlip] = useState(false);
 
 	const handleCLick = () => {
-		setSelectedId(!selectedId);
+		setFlip(!flip);
+		console.log("Clicked");
 	};
-	// console.log(handleCLick());
 	return (
 		<div className={styles.hero}>
 			{dataForAvengers.map((card) => (
-				<div key={card.id} className={styles.flashCard} onClick={handleCLick}>
-					<img src={card.image} alt="" />
-					<p>Hello</p>
+				<div key={card.id} className={styles.flashCardContainer}>
+					<div key={card.id} className={styles.flashCardFront}>
+						<img src={card.image} alt="" />
+					</div>
+					<FLipCard handleCLick={handleCLick} />
 				</div>
 			))}
-			console.log(handleCLick());
 		</div>
 	);
 };

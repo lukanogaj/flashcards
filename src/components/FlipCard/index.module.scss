@@ -1,0 +1,15 @@
+.flashCardContainer {
+	width: 490px;
+	height: 410px;
+	margin: auto;
+	padding: 5px;
+	background-color: yellow;
+
+	.flashCardBack {
+		background-color: red;
+		transform: rotate(180deg);
+		display: flex;
+		width: 490px;
+		height: 410px;
+	}
+}
