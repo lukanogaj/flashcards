@@ -10,37 +10,37 @@ const dataForAvengers = [
 		id: 1,
 		image: pictureOne,
 		paragraph:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			" Ruthless vigilante who frequently killed or maimed criminals, but evolved into a character with a stringent moral code and strong sense of justice.",
 	},
 	{
 		id: 2,
 		image: pictureTwo,
 		paragraph:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"An expert in many forms of martial arts, she is also a skilled gymnast and possesses superhuman strength, speed, agility, and endurance. ",
 	},
 	{
 		id: 3,
 		image: pictureThree,
 		paragraph:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"Incredibly fast and can run great distances at extreme speeds. He generally travels by jumping as described above though.",
 	},
 	{
 		id: 4,
 		image: pictureFour,
 		paragraph:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			" Charismatic and eccentric, he is also very proud, but also very altruist and heroic. ",
 	},
 	{
 		id: 5,
 		image: pictureFive,
 		paragraph:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			" Spider-like abilities including superhuman strength and the ability to cling to most surfaces. He is also extremely agile and has amazing reflexes.",
 	},
 	{
 		id: 6,
 		image: pictureSix,
 		paragraph:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"Asgardian warrior-prince, the God of Thunder, and a self-proclaimed protector of Earth.",
 	},
 ];
 
